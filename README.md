@@ -19,33 +19,33 @@ NOTE: Before opening the products user should account to disable the read of aux
   - Select the desired input product from the available list ([1] S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518)
   - Resample the product by “reference band” and choose “B2” (or other 10 m resolution bands)
   - Subset according to:
- i.	The source bands to be used in the following steps (B2, B3, B4, B8 to select);
-ii.	The desired AOI polygon, leveraging on Wicket -  https://arthur-e.github.io/Wicket/sandbox-gmaps3.html for the generation of the geographic coordinates in a proper format to be pasted in the proper space
+    - The source bands to be used in the following steps (B2, B3, B4, B8 to select);
+    - The desired AOI polygon, leveraging on Wicket -  https://arthur-e.github.io/Wicket/sandbox-gmaps3.html for the generation of the geographic coordinates in a proper format to be pasted in the proper space
 
 The following steps are meant to:
-d.	Calculate the Land mask 
-e.	Merge the produced bands (User should select the five bands available in the window)
-f.	Apply the Land mask to the four source bands
-g.	Merge the produced bands (User should select the four bands available in the window)
+  - Calculate the Land mask 
+  - Merge the produced bands (User should select the five bands available in the window)
+  - Apply the Land mask to the four source bands
+  - Merge the produced bands (User should select the four bands available in the window)
 
 ![Image](Figures/DEGLINT.png?raw=true)
 
-h.	Save the pre-processed product (S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518_resampled_Subset_BandMaths) in BEAM-DIMAP format in the Data folder
+  - Save the pre-processed product (S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518_resampled_Subset_BandMaths) in BEAM-DIMAP format in the Data folder
 
 4.	Deglint 
-a.	Create glint polygons or load polygons (Glint_Polygon) as ESRI shapefile: Vectos > Import > ESRI Shapefile; import the polygons as unique mask.
-b.	Open the Deglin processor: Optical > Thematic water processing > Sen2Coral > Deglint Processor   
-c.	Read the pre-processed product in the “Input/Output” parameters window ([2] S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518_resampled_Subset_BandMaths)
-d.	Save as GeoTIFF-BigTIFF
-e.	In the “processing parameters” write the polygons shapefile name for the “Sun Glint Areas”, select Blue, Green and Red land-masked bands as source, NIR as reference
-f.	Check the boxes
-g.	Run the processor
-h.	Read the product
-i.	Read vector as single layer
-j.	Write the polygons name
-k.	Select the bands to be corrected (B2, B3, B4) and the reference bands (B8, B9)
-l.	Check box for the
-m.	Write the product in the Preprocessed folder selecting GeoTiff/BigTiff format;
+  - Create glint polygons or load polygons (Glint_Polygon) as ESRI shapefile: Vectos > Import > ESRI Shapefile; import the polygons as unique mask.
+  - Open the Deglin processor: Optical > Thematic water processing > Sen2Coral > Deglint Processor   
+  - Read the pre-processed product in the “Input/Output” parameters window ([2] S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518_resampled_Subset_BandMaths)
+  - Save as GeoTIFF-BigTIFF
+  - In the “processing parameters” write the polygons shapefile name for the “Sun Glint Areas”, select Blue, Green and Red land-masked bands as source, NIR as reference
+  - Check the boxes
+  - Run the processor
+  - Read the product
+  - Read vector as single layer
+  - Write the polygons name
+  - Select the bands to be corrected (B2, B3, B4) and the reference bands (B8, B9)
+  - Check box for the
+  - Write the product in the Preprocessed folder selecting GeoTiff/BigTiff format;
 
 The batch processor can be used with the same procedure for a multiple images processing or in case of random errors with the graph builder
 5.	End
@@ -53,10 +53,10 @@ It is also possible to perform the individual steps described in the same order 
 
 
  
-BATRHYMETRY DERIVATION - MATLAB
+## BATRHYMETRY DERIVATION - MATLAB
 Instructions for starting the code are included in the script. The work folder should contain the code file together with the shapefile of the ground truth points and the pre-processed satellite image.
  
-APPENDIX - ACCESS TO SENTINEL-2 SATELLITE DATA
+## APPENDIX - ACCESS TO SENTINEL-2 SATELLITE DATA
 Free registration on the Copernicus Data Space Ecosystem to access and download Sentinels’ collections - https://identity.dataspace.copernicus.eu/auth/realms/CDSE/login-actions/registration?client_id=cdse-public&tab_id=zXE8Re-jUkQ
 Instructions and general information- https://www.youtube.com/watch?v=Am93Xi0PZ5o&ab_channel=CopernicusEU
 Copernicus Ecosystem Documentation - https://documentation.dataspace.copernicus.eu/
