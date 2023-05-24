@@ -47,7 +47,7 @@ The following steps are meant to:
   - Save the pre-processed product (S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518_resampled_Subset_BandMaths) in BEAM-DIMAP format in the Data folder
 
 4.	Deglint 
-  - Create glint polygons or load polygons (Glint_Polygon) as ESRI shapefile: Vectos > Import > ESRI Shapefile; import the polygons as unique mask.
+  - Create glint polygons or load polygons (Glint_Polygon.shx) as ESRI shapefile: Vectos > Import > ESRI Shapefile; import the polygons as unique mask.
   - Open the Deglin processor: Optical > Thematic water processing > Sen2Coral > Deglint Processor   
   - Read the pre-processed product in the “Input/Output” parameters window ([2] S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518_resampled_Subset_BandMaths)
   - Save as GeoTIFF-BigTIFF
