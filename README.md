@@ -8,7 +8,7 @@ The script requires as input the preprocessed satellite image product and the se
 
 In the following, a usage guide is provided, divided into A) pre-processing of the satellite image (Copernicus Sentinel-2a) using the open SNAP tool, which involves the use of a batch graph for the relevant steps, which generates a pre-processed image, which is input to the B) processing that produces the derived bathymetry as .tif and .png files, along with some graphs and .csv files containing statistics. 
 
-The guide takes as an example a use case related to Venice Lagoon, whose reference data are contained in the Data folder, while the Sentinel-2 product of the area is downloadable from ESA's Open Access Hub at the link (https://scihub.copernicus.eu/dhus/odata/v1/Products('980473c2-f2a3-4926-8827-9f57e8f919af')/$value).
+The guide takes as an example a use case related to Venice Lagoon, whose reference data are contained in the Data folder, while the Sentinel-2 product of the area (product name "S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518") is downloadable from ESA's Open Access Hub at the link (https://scihub.copernicus.eu/dhus/odata/v1/Products('980473c2-f2a3-4926-8827-9f57e8f919af')/$value).
 
 As a final note, we note that the pre-processing step can be bypassed by providing as input to the script a georeferenced image with UTM/WGS84 projection, with the 4 bands Blue, Green, Red, and NIR.
 
