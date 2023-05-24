@@ -10,7 +10,7 @@ NOTE: Before opening the products user should account to disable the read of aux
 
 1.	Drag and drop the optical satellite product zip file (S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518) in the SNAP product window 
 2.	Open RGB image with the right click on the product for a visual check [B4, Red, B3, Green, B2, Blue for Sentinel-2 products]
-3.	Open the graph builder tool from the SNAP toolbar and load the .xlm Graph file (Graph_example_LM), the following setting should be perfomed:
+3.	Open the graph builder tool from the SNAP toolbar and load the .xlm Graph file (Preprocessing_Graph), the following setting should be perfomed:
 
 ![Image](Figures/GRAPH.png?raw=true)
 
