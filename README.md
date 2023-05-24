@@ -68,7 +68,7 @@ It is also possible to perform the individual steps described in the same order 
 
  
 ## B) BATHRYMETRY DERIVATION (MATLAB)
-Instructions for starting the code are included in the script. The work folder should contain the code file together with the shapefile of the ground truth points and the pre-processed satellite image.
+The code script includes comments highlighting the main processing steps.
  
 ## APPENDIX - ACCESS TO SENTINEL-2 SATELLITE DATA
 Free registration on the Copernicus Data Space Ecosystem to access and download Sentinels’ collections - https://identity.dataspace.copernicus.eu/auth/realms/CDSE/login-actions/registration?client_id=cdse-public&tab_id=zXE8Re-jUkQ
