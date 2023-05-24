@@ -28,8 +28,7 @@ g.	Merge the produced bands (User should select the four bands available in the 
 
 ![Image](Figures/DEGLINT.png?raw=true)
 
-
-	h.	Save the pre-processed product (S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518_resampled_Subset_BandMaths) in BEAM-DIMAP format in the Data folder
+h.	Save the pre-processed product (S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518_resampled_Subset_BandMaths) in BEAM-DIMAP format in the Data folder
 
 4.	Deglint 
 a.	Create glint polygons or load polygons (Glint_Polygon) as ESRI shapefile: Vectos > Import > ESRI Shapefile; import the polygons as unique mask.
