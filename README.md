@@ -6,9 +6,13 @@ IMAGE PREPROCESSING – SNAP
 The early steps of the optical satellite image pre-processing procedure are contained in an .xml file that should be uploaded and executed on the SNAP desktop app.
 NOTE: Before opening the products user should account to disable the read of aux files since some problems are related in Deglint phase (4) to these data: Deselect Sentinel-2 auxiliary data read, Apply, OK.
 
+![Image](Figures/AUX_DATA_READ.png?raw=true)
+
 1.	Drag and drop the optical satellite product zip file (S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518) in the SNAP product window 
 2.	Open RGB image with the right click on the product for a visual check [B4, Red, B3, Green, B2, Blue for Sentinel-2 products]
 3.	Open the graph builder tool from the SNAP toolbar and load the .xlm Graph file (Graph_example_LM), the following setting should be perfomed:
+
+![Image](Figures/GRAPH.png?raw=true)
 
 a.	Select the desired input product from the available list ([1] S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518)
 b.	Resample the product by “reference band” and choose “B2” (or other 10 m resolution bands)
@@ -20,6 +24,10 @@ d.	Calculate the Land mask
 e.	Merge the produced bands (User should select the five bands available in the window)
 f.	Apply the Land mask to the four source bands
 g.	Merge the produced bands (User should select the four bands available in the window)
+
+![Image](Figures/DEGLINT.png?raw=true)
+
+
 h.	Save the pre-processed product (S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518_resampled_Subset_BandMaths) in BEAM-DIMAP format in the Data folder
 
 4.	Deglint 
