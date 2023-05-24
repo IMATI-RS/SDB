@@ -1,4 +1,6 @@
-# SDB - A Matlab script to compute Satellite Derived Bathymetry (SDB) from Copernicus Satellite S-2
+# SDB 
+
+## A Matlab script to compute Satellite Derived Bathymetry (SDB) from Copernicus Satellite S-2
 
 
 SATELLITE DERIVED BATHYMETRY ALGORITHM 
@@ -14,10 +16,10 @@ NOTE: Before opening the products user should account to disable the read of aux
 
 ![Image](Figures/GRAPH.png?raw=true)
 
-a.	Select the desired input product from the available list ([1] S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518)
-b.	Resample the product by “reference band” and choose “B2” (or other 10 m resolution bands)
-c.	Subset according to:
-i.	The source bands to be used in the following steps (B2, B3, B4, B8 to select);
+  - Select the desired input product from the available list ([1] S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518)
+  - Resample the product by “reference band” and choose “B2” (or other 10 m resolution bands)
+  - Subset according to:
+ i.	The source bands to be used in the following steps (B2, B3, B4, B8 to select);
 ii.	The desired AOI polygon, leveraging on Wicket -  https://arthur-e.github.io/Wicket/sandbox-gmaps3.html for the generation of the geographic coordinates in a proper format to be pasted in the proper space
 
 The following steps are meant to:
