@@ -2,10 +2,24 @@
 
 ## A Matlab script to compute Satellite Derived Bathymetry (SDB) from Copernicus Satellite S-2
 
+The Script_SDB.m is a MATLAB code to calculate Satellite Derived Bathymetry accordin to the band ratio technique improved by Stumpf et al. (Stumpf, R.P.; Holderied, K.; Sinclair, M. Determination of water depth with high-resolution satellite imagery over variable bottom types. Limnology and Oceanography 2003, 48, 547–556) 
 
-SATELLITE DERIVED BATHYMETRY ALGORITHM 
-IMAGE PREPROCESSING – SNAP 
+The script requires as input the preprocessed satellite image product and the set of points for calibration and validation. 
+
+In the following, a usage guide for the script is provided, divided into A) pre-processing of the satellite image (Copernicus Sentinel-2a) using the open SNAP tool, which involves the use of a batch graph for the relevant steps, which generates a pre-processed image, which is input to the B) processing that produces the derived bathymetry as .tif and .png files, along with some graphs and .csv files containing statistics. 
+
+The guide takes as an example a use case related to Venice Lagoon, whose reference data are contained in the Data folder, while the Sentinel-2 product of the area is downloadable from ESA's Open Access Hub at the link (https://scihub.copernicus.eu/dhus/odata/v1/Products('980473c2-f2a3-4926-8827-9f57e8f919af')/$value).
+
+As a final note, we note that the pre-processing step can be bypassed by providing as input to the script a georeferenced image with UTM/WGS84 projection, with the 4 bands Blue, Green, Red, and NIR.
+
+## Requirements
+- SNAP
+- MatLab 
+
+
+## A) Pre-processing (SNAP)
 The early steps of the optical satellite image pre-processing procedure are contained in an .xml file that should be uploaded and executed on the SNAP desktop app.
+
 NOTE: Before opening the products user should account to disable the read of aux files since some problems are related in Deglint phase (4) to these data: Deselect Sentinel-2 auxiliary data read, Apply, OK.
 
 ![Image](Figures/AUX_DATA_READ.png?raw=true)
@@ -53,7 +67,7 @@ It is also possible to perform the individual steps described in the same order 
 
 
  
-## BATRHYMETRY DERIVATION - MATLAB
+## B) BATHRYMETRY DERIVATION (MATLAB)
 Instructions for starting the code are included in the script. The work folder should contain the code file together with the shapefile of the ground truth points and the pre-processed satellite image.
  
 ## APPENDIX - ACCESS TO SENTINEL-2 SATELLITE DATA
