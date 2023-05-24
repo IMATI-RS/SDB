@@ -39,7 +39,6 @@ d.	Save as GeoTIFF-BigTIFF
 e.	In the “processing parameters” write the polygons shapefile name for the “Sun Glint Areas”, select Blue, Green and Red land-masked bands as source, NIR as reference
 f.	Check the boxes
 g.	Run the processor
-
 h.	Read the product
 i.	Read vector as single layer
 j.	Write the polygons name
