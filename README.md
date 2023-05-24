@@ -2,11 +2,11 @@
 
 ## A Matlab script to compute Satellite Derived Bathymetry (SDB) from Copernicus Satellite S-2
 
-The Script_SDB.m is a MATLAB code to calculate Satellite Derived Bathymetry accordin to the band ratio technique improved by Stumpf et al. (Stumpf, R.P.; Holderied, K.; Sinclair, M. Determination of water depth with high-resolution satellite imagery over variable bottom types. Limnology and Oceanography 2003, 48, 547–556) 
+The Script_SDB.m is a MATLAB code to calculate Satellite Derived Bathymetry according to the band ratio technique improved by Stumpf et al. (Stumpf, R.P.; Holderied, K.; Sinclair, M. Determination of water depth with high-resolution satellite imagery over variable bottom types. Limnology and Oceanography 2003, 48, 547–556) 
 
 The script requires as input the preprocessed satellite image product and the set of points for calibration and validation. 
 
-In the following, a usage guide for the script is provided, divided into A) pre-processing of the satellite image (Copernicus Sentinel-2a) using the open SNAP tool, which involves the use of a batch graph for the relevant steps, which generates a pre-processed image, which is input to the B) processing that produces the derived bathymetry as .tif and .png files, along with some graphs and .csv files containing statistics. 
+In the following, a usage guide is provided, divided into A) pre-processing of the satellite image (Copernicus Sentinel-2a) using the open SNAP tool, which involves the use of a batch graph for the relevant steps, which generates a pre-processed image, which is input to the B) processing that produces the derived bathymetry as .tif and .png files, along with some graphs and .csv files containing statistics. 
 
 The guide takes as an example a use case related to Venice Lagoon, whose reference data are contained in the Data folder, while the Sentinel-2 product of the area is downloadable from ESA's Open Access Hub at the link (https://scihub.copernicus.eu/dhus/odata/v1/Products('980473c2-f2a3-4926-8827-9f57e8f919af')/$value).
 
