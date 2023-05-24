@@ -58,13 +58,18 @@ Instructions for starting the code are included in the script. The work folder s
  
 ## APPENDIX - ACCESS TO SENTINEL-2 SATELLITE DATA
 Free registration on the Copernicus Data Space Ecosystem to access and download Sentinels’ collections - https://identity.dataspace.copernicus.eu/auth/realms/CDSE/login-actions/registration?client_id=cdse-public&tab_id=zXE8Re-jUkQ
+
 Instructions and general information- https://www.youtube.com/watch?v=Am93Xi0PZ5o&ab_channel=CopernicusEU
+
 Copernicus Ecosystem Documentation - https://documentation.dataspace.copernicus.eu/
+
 Once registered and then in possession of credentials, the user accesses the SEARCH menu of the Data Browser to select:
+
 1. Data source (e.g. Sentinel-2 - L2A)
 2. Time Range
 3. Cloud cover accepted percentage
 4. The area of interest (AOI) by drawing a polygon on the online viewer with the appropriate tool.	
+
 User can then download the desired product from the list.
 
  
