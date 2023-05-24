@@ -1,5 +1,5 @@
-# SDB 
-A Matlab script to compute Satellite Derived Bathymetry (SDB) from Copernicus Satellite S-2
+# SDB - A Matlab script to compute Satellite Derived Bathymetry (SDB) from Copernicus Satellite S-2
+
 
 SATELLITE DERIVED BATHYMETRY ALGORITHM 
 IMAGE PREPROCESSING – SNAP 
