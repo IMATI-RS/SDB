@@ -67,7 +67,7 @@ It is also possible to perform the individual steps described in the same order 
 
 
  
-## B) BATHRYMETRY DERIVATION (MATLAB)
+## B) BATHYMETRY DERIVATION (MATLAB)
 The code script includes comments highlighting the main processing steps.
  
 ## APPENDIX - ACCESS TO SENTINEL-2 SATELLITE DATA
