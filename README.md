@@ -13,12 +13,12 @@ The guide takes as an example a use case related to Venice Lagoon, whose referen
 As a final note, we note that the pre-processing step can be bypassed by providing as input to the script a georeferenced image with UTM/WGS84 projection, with the 4 bands Blue, Green, Red, and NIR.
 
 ## Requirements
-- SNAP
-- MatLab 
+- SNAP (S2TBX and Sen2Coral Toolboxes).
+- MatLab (Curve Fitting, Map and Statistics Toolboxes).
 
 
 ## A) Pre-processing (SNAP)
-The early steps of the optical satellite image pre-processing procedure are contained in an .xml file that should be uploaded and executed on the SNAP desktop app.
+The early steps of the optical satellite image pre-processing procedure are contained in an .xml file that should be uploaded and executed on the SNAP desktop app. The pre-processing is developed on version 9.0.0.
 
 NOTE: Before opening the products user should account to disable the read of aux files since some problems are related in Deglint phase (4) to these data: Deselect Sentinel-2 auxiliary data read, Apply, OK.
 
@@ -68,7 +68,7 @@ It is also possible to perform the individual steps described in the same order 
 
  
 ## B) BATHYMETRY DERIVATION (MATLAB)
-The code script includes comments highlighting the main processing steps.
+The code script is developed on version R2022a and it includes comments highlighting the main processing steps.
  
 ## APPENDIX - ACCESS TO SENTINEL-2 SATELLITE DATA
 Free registration on the Copernicus Data Space Ecosystem to access and download Sentinels’ collections - https://identity.dataspace.copernicus.eu/auth/realms/CDSE/login-actions/registration?client_id=cdse-public&tab_id=zXE8Re-jUkQ
