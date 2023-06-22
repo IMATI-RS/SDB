@@ -2,6 +2,9 @@
 
 ## A Matlab script to compute Satellite Derived Bathymetry (SDB) from Copernicus Satellite S-2
 
+The following script implement the SDB methodology puplished in: 
+Bernardis, M.; Nardini, R.; Apicella, L.; Demarte, M.; Guideri, M.; Federici, B.; Quarati, A.; De Martino, M. Use of ICEsat-2 and Sentinel-2 Open Data for the Derivation of Bathymetry in Shallow Waters: Case Studies in Sardinia and in the Venice Lagoon. Remote Sens. 2023, 15, 2944. https://doi.org/10.3390/rs15112944
+
 The Script_SDB.m is a MATLAB code to calculate Satellite Derived Bathymetry according to the band ratio technique improved by Stumpf et al. (Stumpf, R.P.; Holderied, K.; Sinclair, M. Determination of water depth with high-resolution satellite imagery over variable bottom types. Limnology and Oceanography 2003, 48, 547–556) 
 
 The script requires as input the preprocessed satellite image product and the set of points for calibration and validation. 
