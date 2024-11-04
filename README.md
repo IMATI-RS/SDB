@@ -6,7 +6,7 @@ The following script implements the SDB methodology published in:
 
 Bernardis, M.; Nardini, R.; Apicella, L.; Demarte, M.; Guideri, M.; Federici, B.; Quarati, A.; De Martino, M. Use of ICEsat-2 and Sentinel-2 Open Data for the Derivation of Bathymetry in Shallow Waters: Case Studies in Sardinia and in the Venice Lagoon. Remote Sens. 2023, 15, 2944. https://doi.org/10.3390/rs15112944
 
-The Script_SDB.m is a MATLAB code to calculate Satellite Derived Bathymetry according to the band ratio technique improved by Stumpf et al. (Stumpf, R.P.; Holderied, K.; Sinclair, M. Determination of water depth with high-resolution satellite imagery over variable bottom types. Limnology and Oceanography 2003, 48, 547–556) 
+The Script_SDB.m is a MATLAB code to calculate Satellite Derived Bathymetry according to the band ratio technique improved by Stumpf et al. (Stumpf, R.P.; Holderied, K.; Sinclair, M. Determination of water depth with high-resolution satellite imagery over variable bottom types. Limnology and Oceanography 2003, 48, 547–556).
 
 The script requires as input the preprocessed satellite image product and the set of points for calibration and validation. 
 
@@ -14,7 +14,7 @@ In the following, a usage guide is provided, divided into A) pre-processing of t
 
 The guide takes as an example a use case related to Venice Lagoon, whose reference data are contained in the Data folder, while the Sentinel-2 product of the area (product name "S2A_MSIL2A_20200319T101021_N0214_R022_T32TQR_20200319T130518") is downloadable from ESA's Open Access Hub at the link (https://scihub.copernicus.eu/dhus/odata/v1/Products('980473c2-f2a3-4926-8827-9f57e8f919af')/$value).
 
-As a final note, we note that the pre-processing step can be bypassed by providing as input to the script a georeferenced image with UTM/WGS84 projection, with the 4 bands Blue, Green, Red, and NIR.
+As a final note, we would like to point out that the pre-processing step can be bypassed by providing as input to the script a georeferenced image with UTM/WGS84 projection, with the 4 bands Blue, Green, Red, and NIR.
 
 ## Requirements
 - SNAP (S2TBX and Sen2Coral Toolboxes).
@@ -59,13 +59,13 @@ The following steps are meant to:
   - Check the boxes
   - Run the processor
   - Read the product
-  - Read vector as single layer
-  - Write the polygons name
+  - Read vector as a single layer
+  - Write the polygon name
   - Select the bands to be corrected (B2, B3, B4) and the reference bands (B8, B9)
-  - Check box for the
+  - Check the box for the
   - Write the product in the Preprocessed folder selecting GeoTiff/BigTiff format;
 
-The batch processor can be used with the same procedure for a multiple images processing or in case of random errors with the graph builder
+The batch processor can be used with the same procedure for multiple images processing or in case of random errors with the graph builder
 5.	End
 It is also possible to perform the individual steps described in the same order by calling up each action from the SNAP toolbar.
 
@@ -88,7 +88,7 @@ Once registered and then in possession of credentials, the user accesses the SEA
 3. Cloud cover accepted percentage
 4. The area of interest (AOI) by drawing a polygon on the online viewer with the appropriate tool.	
 
-User can then download the desired product from the list.
+Users can then download the desired product from the list.
 
  
  
